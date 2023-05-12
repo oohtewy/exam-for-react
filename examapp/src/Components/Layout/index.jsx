@@ -15,6 +15,9 @@ function Layout(props) {
           <li>
             <Link to="/404">Error</Link>
           </li>
+          <li className="Login" >
+            <Link to="/Login">Login</Link>
+          </li>
         </ul>
       </nav>
      
