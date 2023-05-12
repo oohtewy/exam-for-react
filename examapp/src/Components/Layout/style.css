@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    background-color: #eee;
+    box-shadow: 0 3px 7px black;
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding: 5px 10px;
+    border: solid 1px black;
+}
+li:hover {
+    background-color: black;
+    cursor: pointer;
+}
+li:hover a{
+    color: #eee;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
